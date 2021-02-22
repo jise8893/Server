@@ -43,10 +43,6 @@ namespace ServerCore
                 Console.WriteLine(args.SocketError.ToString());
             RegisterAccept(args);
         }
-        public Socket Accept()
-        {
-     
-           return _listenSocket.Accept();
-        }
+       
     }
 }
